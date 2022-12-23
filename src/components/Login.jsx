@@ -27,7 +27,7 @@ const Login = () => {
                    <button className='w-full py-3 mt-2 bg-gray-600 hover:bg-indigo-500 relative text-white rounded-2xl'>Sign In</button>
                    <p className='flex items-center mt-2'><input className='mr-2 relative' type="checkbox"  />Remember Me</p>
                    Not a member? 
-            <button  className='text-center mt-2 relative text-gray-300'> Sign Up</button>
+            <button  className='text-center mt-2 relative text-gray-300 hover:text-indigo-400'> Sign Up</button>
            </form>
         </div>
         </div> 
