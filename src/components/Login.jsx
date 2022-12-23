@@ -15,8 +15,8 @@ const Login = () => {
            <form className='max-w-[400px] w-full mx-auto bg-white p-2 '>
                <h2 className='text-4xl font-bold text-center py-3'>Code <span className='text-gray-500'>Hack</span></h2>
                <div className='flex justify-around  py-2'>
-               <p className='border shadow-lg hover:shadow-xl px-4 py-2 relative flex items-center rounded-2xl'><AiFillFacebook className='mr-2' /><button>Facebook</button> </p>
-                   <p className='border shadow-lg hover:shadow-xl px-4 py-2 relative flex items-center rounded-2xl'><FcGoogle className='mr-4' /> <button>Google</button></p>
+               <p className='border shadow-lg hover:shadow-xl px-4 py-2 relative flex items-center rounded-2xl'><AiFillFacebook className='mr-2' /><a href='https://www.facebook.com/login/'><button>Facebook</button></a></p>
+                   <p className='border shadow-lg hover:shadow-xl px-4 py-2 relative flex items-center rounded-2xl '><a class  href="https://www.google.com/"><FcGoogle className='mr-4' /> <button>Google</button></a></p>
                    </div>
                    <div className='flex flex-col mb-4'>
                        <label>Username</label>
@@ -25,8 +25,9 @@ const Login = () => {
                        <input className='border relative bg-gray-100 p-1 mr-2 rounded-2xl'type='password' />
                    </div>
                    <button className='w-full py-3 mt-2 bg-gray-600 hover:bg-indigo-500 relative text-white rounded-2xl'>Sign In</button>
-                   <p className='flex items-center mt-2'><input className='mr-2' type="checkbox"  />Remember Me</p>
-            <p className='text-center mt-2'>Not a member? Sign up now</p>
+                   <p className='flex items-center mt-2'><input className='mr-2 relative' type="checkbox"  />Remember Me</p>
+                   Not a member? 
+            <button  className='text-center mt-2 relative '> Sign Up</button>
            </form>
         </div>
         </div> 
