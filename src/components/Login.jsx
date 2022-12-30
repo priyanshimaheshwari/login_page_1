@@ -7,7 +7,7 @@ const Login = () => {
     <div className='relative w-full h-screen bg-zinc-700'>
         
             <img className='absolute w-full h-full object-cover mix-blend-overlay' src="https://images.pexels.com/photos/7002678/pexels-photo-7002678.jpeg?auto=compress&cs=tinysrgb&w=400" alt="/"/>
-            <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-600 sm:max-w-[800px]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-700 sm:max-w-[800px]'>
         <div className=' sm:block'>
             <img className='max-w-[400px] w-full mx-auto h-[550px] object-cover  py-20' src='https://images.pexels.com/photos/3826676/pexels-photo-3826676.jpeg?auto=compress&cs=tinysrgb&w=400' alt='' />
         </div>
